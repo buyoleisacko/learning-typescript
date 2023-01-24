@@ -67,4 +67,13 @@ function getLength(obj: string | string []){
 
 //making function return different values depending on whether it is passed as a string or array
 
-function wrapInArray
+function wrapInArray(obj: string | string[]){
+    if(typeof obj === "string"){
+    return [obj];
+    (parameter) =>{
+        
+    }
+}
+return obj;
+
+}
